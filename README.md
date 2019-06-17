@@ -1,0 +1,1 @@
+API call to NWS to get latest AFD.  This way I do not have to open a browser to see the latest weather.  Eventually I will feed this into some sort of TTS so the latest AFD will be read to me when I am chasing and can't read my laptop.
