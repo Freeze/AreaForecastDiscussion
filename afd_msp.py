@@ -4,13 +4,7 @@ import requests
 url = "https://api.weather.gov/products/types/afd/locations/mpx"
 
 headers = {
-    'User-Agent': "PostmanRuntime/7.13.0",
-    'Accept': "*/*",
-    'Cache-Control': "no-cache",
-    'Host': "api.weather.gov",
-    'accept-encoding': "gzip, deflate",
-    'Connection': "keep-alive",
-    'cache-control': "no-cache"
+    'User-Agent': "Python"
     }
 
 response = requests.request("GET", url, headers=headers)
